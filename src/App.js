@@ -1,8 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 
-// ─── CHANGE THIS to your Render backend URL after deploying ───────────────────
-// Example: const BACKEND_URL = "https://smartassist-backend.onrender.com";
-const BACKEND_URL = "https://smartassist-backend.onrender.com"; // replace with yours
+const BACKEND_URL = "https://smartassist-backend.onrender.com"; 
 
 const STYLES = `
   @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap');
@@ -525,7 +523,7 @@ export default function SmartAssist() {
           <div className="logo">🧠</div>
           <div className="header-text">
             <h1>SmartAssist</h1>
-            <p>AI-powered multi-tool · Powered by Claude</p>
+            <p>AI-powered multi-tool ·</p>
           </div>
           <div className="badge">Portfolio Project</div>
         </header>
